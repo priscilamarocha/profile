@@ -1,0 +1,77 @@
+/* BODY: background-color, font-family, color, font-size and line-height
+HEADER: color and font-family for headers (<h1>, <h2>, <h3>)
+font-size and line-height
+LINKS: color & text-decoration
+a:hover.
+@media (prefers-reduced-motion: no-preference)*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Poppins;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.card {
+ background-color:#ffffff;
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+h1,h2,h3 {
+font-family: Poppins;
+font-size: 40px;
+font-weight: bold;
+color: #fca311
+}
+
+a:hover{
+  color: #9bb1ff
+}
+
+li {
+  padding: 0;
+  color: #fca311;
+  margin: 0 auto;
+ }
+
+ .inline-flex{
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #5465ff;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0 auto;
+  color: #5465ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img-circle{
+border-radius: 50%
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%
+}
